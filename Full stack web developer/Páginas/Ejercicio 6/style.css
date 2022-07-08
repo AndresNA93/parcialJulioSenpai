@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+}
+
+.bloque {
+  background-color: hsl(263, 55%, 52%);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+p {
+  color: hsl(210, 46%, 95%);
+}
+.frase {
+  font-weight: 600;
+  margin: 2rem 0 2rem 0;
+}
+.contenido{
+    font-weight: 500;
+}
+header {
+  width: fit-content;
+  align-items: center;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "pc name"
+    "pc desc";
+}
+.perfil {
+  border: 3px solid;
+  border-radius: 10rem;
+  border-color: hsl(264deg 82% 70%);
+  grid-area: pc;
+}
+h1 {
+  color: hsl(0, 0%, 81%);
+  grid-area: name;
+}
+h2 {
+  color: hsl(0, 0%, 81%);
+  opacity: 50%;
+  grid-area: desc;
+}

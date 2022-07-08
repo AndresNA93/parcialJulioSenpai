@@ -1,0 +1,15 @@
+H1,H2,H3,H4,H5,H6: Titulos, en orden de importancia
+p: parrafo
+main: contenido principal de la web
+section:parte del contenido, puede estar dentro de main o no
+img: imagenes (para que funcione poner fuente "src" y descripcion "alt")
+a: enlace
+imagen enlace: dentro de un (a) meter un img (a>img)
+form: etiqueta para formularios, cualquier tipo
+fieldset: donde van todos los elementos con botones
+legend:agrega lo que se va a responder (puede ser pregunta)
+input: donde va la informacion, puede ser unica opcion (type="radio"), opcion multiple (type="checkbox")
+input>id/type/name/for/value atributos para preguntas
+Header:encabezado
+hr: barra
+<! –– COMENTAR EN HTML ––>

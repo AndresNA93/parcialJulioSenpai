@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(/Gatitos\ media\ query/huella.jpg);
+}
+
+.todo {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100vh;
+  width: 75%;
+}
+
+figure,
+p {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  margin: 0 0 25px 0;
+  padding: 10px;
+  text-align: center;
+}
+img{
+    max-width: 100%;
+}
+.fotos {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+@media (max-width: 1020px) {
+    body {
+        background-image: url(/Gatitos\ media\ query/huella2.jpg);
+      }
+    .fotos {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+    }
+  }
+@media (max-width: 794px) {
+    body {
+        background-image: url(/Gatitos\ media\ query/huella3.jpg);
+      }
+    .fotos {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+  }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>J4 - EJ1</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                height: 100vh;
+            }
+            .contenedor {
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                justify-content: center;
+                align-items: center;
+            }
+            button {
+                padding: 16px 32px;
+                font-weight: 500;
+                font-size: 16px;
+                color: white;
+                background: none;
+                border: none;
+                outline: none;
+                box-shadow: 0px 2px 8px rgba(39, 94, 254, 0.32);
+                background-color: #275efe;
+                margin-bottom: 10px;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <button id="btn1">1</button>
+            <button id="btn2">2</button>
+            <button id="btn3">3</button>
+            <div id="parrafo"></div>
+        </div>
+    </body>
+    <script>
+        const botones = document.getElementsByTagName("button");
+        //const parrafo = document.createElement("p");
+        const mostrarMensaje = (boton) => {
+            alert(`Presionaste el botón ${boton.innerText}`);
+            // const div = document.getElementById("parrafo");
+            // parrafo.innerText = `Presionaste el botón ${boton.innerText}`;
+            // div.appendChild(parrafo);
+        };
+
+        for (let boton of botones) {
+            boton.addEventListener("click", () => mostrarMensaje(boton));
+        }
+
+        // for (let i = 0; i < botones.length; i++) {
+        //     botones[i].addEventListener("click", () =>
+        //         mostrarMensaje(botones[i])
+        //     );
+        // }
+    </script>
+</html>

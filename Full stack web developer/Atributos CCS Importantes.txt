@@ -1,0 +1,7 @@
+Como centrar un elemento en CCS: margin left/margin right: auto
+pseudo-selector: Por ejemplo "hover" va despues de ":"
+a:visited> enlace visitado
+a:hover> enlace parandose con el mouse
+a:active> enlace al hacer click
+
+/*COMENTAR EN CSS*/

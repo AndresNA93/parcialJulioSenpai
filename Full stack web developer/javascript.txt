@@ -1,0 +1,60 @@
+data types VALORES UTILIZADOS 
+undefined SIN DEFINIR
+null NULO
+boolean VERDADERO O FALSO
+string TEXTO
+symbol 
+bigint
+number NUMERO
+object OBJETOS (VARIOS STRING)
+
+---
+
+var - FUNCIONA COMO X e Y EN MATEMATICAS, PARA DECLARAR VARIABLES(INFORMACIÓN)
+let
+const - SE ASIGNA VALOR QUE NO SE REPITE
+EJEMPLO:
+
+var holaAmigo;
+
+holaAmigo = 5;
+
+--EN LA SEGUNDA LÍNEA LE ASIGNÉ EL VALOR 5 A LA VARIABLE ANTERIORMENTE DECLARADA--
+
+--TAMBIEN PODEMOS ASIGNAR EL MISMO VALOR A OTRA VARIABLE, POR EJEMPLO:--
+
+var holaAmigo;
+
+holaAmigo = 5;
+holaCapo = holaAmigo;
+--holaCapo equivale a holaAmigo, o sea 5
+
+PARA AHORRAR CÓDIGO ES PREFERIBLE ASIGNARLE EL VALOR EN LA MISMA LÍNEA, POR EJEMPLO:
+
+var holaAmigo = 5;
+
+ADEMAS DE VALORES NUMERICOS (PUEDEN SER CON COMA), PUEDO ASIGNARLE EL VALOR PALABRAS, ENTRE COMILLAS
+var myFirstName = "my first name";
+EL FORMATO RECOMENDADO ES TODO EN MINUSCULAS, SI TENGO OTRA PALABRA LA DISTINGO CON EL INICIO EN MAYUSCULA, POR EJEMPLO: myFirstName
+EN CONST SE ESCRIBE EN MAYUSCULAS POR EJEPLO: const FCC = "freeCodeCamp";
+
+USO DE ++
+SIRVE PARA SUMAR +1, EJEMPLO: i++; EQUIVALE A i = i + 1; (AHORRA CODIGO)
+FUNCIONA IGUAL PARA RESTAR CON --
+REMAINDER: SIRVE PARA ARROJAR EL RESTO DE UNA DIVISION, POR EJEMPLO: 11%3 (2)
+
+CONDICION IF
+if(condicion) {
+ // se hace algo
+} else if (condicion 2) {
+ // se hace algo si se cumple la condicion 2
+} else {
+ // se hace algo todas las veces que NO se cumple ni la condicion 1 ni la 2
+}
+
+Product Designer / Qubox
+
+Agente de atención al cliente en portugués para ecommerce - home office | Synapsis
+
+Agentes para plataforma de ecommerce (10 puestos) | Synapsis
+

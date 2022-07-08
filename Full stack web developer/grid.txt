@@ -1,0 +1,12 @@
+Grid, se acomodan los elementos como una grilla, filas, columnas, celdas, areas.
+
+display: grid = se aplica en css
+grid: grilla completa
+grid lines: lineas horizontales y verticales
+grid tracks:
+grid areas:
+grid cell:
+
+diseno responsivo
+siempre scroll hacia abajo
+@mediaquerie > para adaptar un diseno a distintas plataformas, son reglas que "pisan" reglas establecidas en el css, si se cumplen determinadas caracteristicas, como el tamano o el dispositivo donde se va a visualizar

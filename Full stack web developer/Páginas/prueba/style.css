@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/prueba/beans.jpg);
+}
+h1 {
+  font-family: Impact;
+}
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+p {
+  font-family: sans-serif;
+  text-align: left;
+  display: inline-block;
+}
+span {
+  text-align: right;
+}
+a {
+  color: black;
+}
+hr {
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
+}
+div {
+  width: 80%;
+  background-color: burlywood;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+#cursiva {
+  font-style: italic;
+}
