@@ -7,4 +7,10 @@ window.onload=function(){
     btnModal.addEventListener("click", function(){
         document.querySelector(".fondo").classList.remove("ocultar");
     })
+    const textArea = document.querySelector("#rellenar")
+    textArea.addEventListener("input", function(event){
+        if(event.target.value.length>255){
+            alert("No somos tu diario intimo papu")
+        };
+    })
 }

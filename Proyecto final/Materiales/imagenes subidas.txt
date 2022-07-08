@@ -1,1 +1,3 @@
-https://postimg.cc/gallery/f9kGHdM/56e13d57
+agregar cambios con el +
+git commit -m "nombre commit" (breve descripcion de cambios)
+git push (termina de subir los cambios a git)

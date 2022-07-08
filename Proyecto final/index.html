@@ -47,7 +47,7 @@
           alt="oficina"
         />
         <article class="articulo">
-          <h2>Soluciones para empresas</h2>
+          <h2 class="main">Soluciones para empresas</h2>
           <p>
             Generamos un medio para que las empresas se involucren en
             actividades de responsabilidad social. ¡Creá un grupo de voluntarios
@@ -62,7 +62,7 @@
           alt="voluntariado"
         />
         <article class="articulo">
-          <h2>Soluciones para organizaciones</h2>
+          <h2 class="main">Soluciones para organizaciones</h2>
           <p>
             Apoyamos a las organizaciones sociales para que alcancen sus
             objetivos. Ponemos a su disposición una comunidad de voluntarios
@@ -74,7 +74,7 @@
     </main>
     <aside>
       <div class="oportunidad">
-        <h2>Encuentra las mejores oportunidades</h2>
+        <h2 class="main">Encuentra las mejores oportunidades</h2>
         <p>
           La plataforma cuenta con gran variedad de proyectos locales (sociales,
           educativos y medioambientales), donde encontraras el que mejor se
@@ -154,13 +154,15 @@
           </li>
           <li id="mensaje">
             <label for="msg">Mensaje:</label><br />
-            <textarea class="rellenar" name="message"></textarea>
+            <textarea id="rellenar" name="message" maxlength="256"></textarea>
           </li>
         </ul>
         <input class="boton" type="submit" value="ENVIAR" />
       </form>
     </div>
     <footer>
+      <hr>
+      <div class="casiTermino">
       <img src="/Proyecto final/Materiales/logo-blanco.png" alt="logo" />
       <ul class="footer">
         <li><a href="#">Nosotros</a></li>
@@ -180,10 +182,39 @@
           ><img src="/Proyecto final/Materiales/Instagram.svg" alt="Instagram"
         /></a>
       </div>
+    </div>
+      <hr>
       <p class="cierre">Copyright © 2021 All rights reserved</p>
     </footer>
     <div class="fondo ocultar">
-      <div class="popup"><button class="cierreModal">X</button></div>
+      <div class="popup">
+        <img src="/Proyecto final/Materiales/imagen-modal.JPG" alt="imgPopup" />
+        <div class="registro">
+          <a href="#">🡸 volver atrás</a>
+          <button class="cierreModal">X</button>
+          <h2>REGISTRAR</h2>
+          <div class="emporg">
+            <div id="empresa">
+              <img src="/Proyecto final/Materiales/icono-maletin.png" alt="" />
+            </div>
+            <div>
+              <h3>MI EMPRESA</h3>
+              <p>Breve explicación a lo que nos referimos.</p>
+              <a href="#">🡺</a>
+            </div>
+          </div>
+          <div class="emporg">
+            <div id="organizacion">
+              <img src="/Proyecto final/Materiales/icono-persona.png" alt="" />
+            </div>
+            <div>
+              <h3>MI ORGANIZACIÓN</h3>
+              <p>Estamos para ayudarlos a tener éxito.</p>
+              <a href="#">🡺</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
